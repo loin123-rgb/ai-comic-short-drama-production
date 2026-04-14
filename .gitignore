@@ -1,0 +1,35 @@
+# Generated media
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Cache and temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Keep folders, ignore heavy assets by default
+assets/characters/*
+assets/references/*
+assets/style-guides/*
+episodes/*/animation/*
+episodes/*/audio/*
+episodes/*/images/*
+episodes/*/video/*
+
+!assets/characters/.gitkeep
+!assets/references/.gitkeep
+!assets/style-guides/.gitkeep
+!episodes/*/animation/.gitkeep
+!episodes/*/audio/.gitkeep
+!episodes/*/images/.gitkeep
+!episodes/*/script/.gitkeep
+!episodes/*/storyboard/.gitkeep
+!episodes/*/video/.gitkeep
